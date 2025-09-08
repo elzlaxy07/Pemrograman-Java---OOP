@@ -1,4 +1,4 @@
-package aksesModifier;
+package company;
 
 public class pegawai {
     public String nama;
@@ -25,3 +25,4 @@ public class pegawai {
         this.gajiPokok = gajiPokok;
     }
 }
+
