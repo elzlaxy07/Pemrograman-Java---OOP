@@ -21,7 +21,7 @@ public class MainCompany {
         Pegawai pegawai;
 
         if (isManajer == 'y') {
-            scanner.nextLine(); // consume newline
+            scanner.nextLine();
             System.out.print("Masukkan Divisi\t\t: ");
             String divisi = scanner.nextLine();
             pegawai = new Manajer(nama, idPegawai, gajiPokok, divisi);
@@ -32,4 +32,5 @@ public class MainCompany {
         System.out.println("\n====DATA PEGAWAI====");
         pegawai.tampilkanData();
     }
+
 }
