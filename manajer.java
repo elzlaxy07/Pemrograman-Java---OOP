@@ -1,4 +1,4 @@
-package aksesModifier;
+package company;
 
 public class manajer extends pegawai {
     String divisi;
@@ -15,3 +15,4 @@ public class manajer extends pegawai {
         System.out.println("Divisi\t\t: " + divisi);
     }
 }
+
